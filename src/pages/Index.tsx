@@ -203,7 +203,7 @@ const Index = () => {
                 <p className="text-sm text-gray-700">
                   Cutting-edge healthcare technology products and solutions for small, medium, and enterprise clients.
                 </p>
-                <Button variant="link" className="text-green-600 p-0 mt-2">
+                <Button variant="https://www.datashieldhealthcare.space" className="text-green-600 p-0 mt-2">
                   Learn More →
                 </Button>
               </CardContent>
@@ -231,7 +231,7 @@ const Index = () => {
                 <p className="text-sm text-gray-700">
                   Advanced cybersecurity product solutions to protect your business from evolving digital threats.
                 </p>
-                <Button variant="link" className="text-red-600 p-0 mt-2">
+                <Button variant="https://www.datashieldsecurity.xyz" className="text-red-600 p-0 mt-2">
                   Learn More →
                 </Button>
               </CardContent>
@@ -245,7 +245,7 @@ const Index = () => {
                 <p className="text-sm text-gray-700">
                   Access our comprehensive blog featuring the latest insights, analytics, and industry reports.
                 </p>
-                <Button variant="link" className="text-indigo-600 p-0 mt-2">
+                <Button variant="https://www.datashieldpartners.blog" className="text-indigo-600 p-0 mt-2">
                   Visit Blog →
                 </Button>
               </CardContent>
@@ -262,10 +262,10 @@ const Index = () => {
                 We've partnered with leading emerging tech, PropTech, FinTech, and cybersecurity solution providers to offer comprehensive solutions and products through analytics, insights, statistics, and reviews from top vendor review sites.
               </p>
               <div className="flex flex-wrap justify-center gap-3">
-                <Badge className="bg-blue-500 text-white">EmergingTech Partners</Badge>
-                <Badge className="bg-purple-500 text-white">PropTech Alliance</Badge>
-                <Badge className="bg-green-500 text-white">FinTech Network</Badge>
-                <Badge className="bg-red-500 text-white">CyberSec Coalition</Badge>
+                <Badge className="bg-blue-500 text-white">Eon Reality</Badge>
+                <Badge className="bg-purple-500 text-white">App Direct</Badge>
+                <Badge className="bg-green-500 text-white">Zscaler</Badge>
+                <Badge className="bg-red-500 text-white">More</Badge>
               </div>
             </CardContent>
           </Card>
