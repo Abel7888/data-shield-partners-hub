@@ -203,7 +203,11 @@ const Index = () => {
                 <p className="text-sm text-gray-700">
                   Cutting-edge healthcare technology products and solutions for small, medium, and enterprise clients.
                 </p>
-                <Button variant="https://www.datashieldhealthcare.space" className="text-green-600 p-0 mt-2">
+                <Button 
+                  variant="link" 
+                  className="text-green-600 p-0 mt-2"
+                  onClick={() => window.open('https://www.datashieldhealthcare.space/', '_blank')}
+                >
                   Learn More →
                 </Button>
               </CardContent>
@@ -217,8 +221,8 @@ const Index = () => {
                 <p className="text-sm text-gray-700">
                   FinTech and PropTech solutions designed to transform financial services and real estate operations.
                 </p>
-                <Button variant="link" className="text-yellow-600 p-0 mt-2">
-                  Learn More →
+                <Button variant="link" className="text-yellow-600 p-0 mt-2" disabled>
+                  Coming Soon
                 </Button>
               </CardContent>
             </Card>
@@ -231,7 +235,11 @@ const Index = () => {
                 <p className="text-sm text-gray-700">
                   Advanced cybersecurity product solutions to protect your business from evolving digital threats.
                 </p>
-                <Button variant="https://www.datashieldsecurity.xyz" className="text-red-600 p-0 mt-2">
+                <Button 
+                  variant="link" 
+                  className="text-red-600 p-0 mt-2"
+                  onClick={() => window.open('https://datashieldsecurity.xyz/', '_blank')}
+                >
                   Learn More →
                 </Button>
               </CardContent>
@@ -245,7 +253,11 @@ const Index = () => {
                 <p className="text-sm text-gray-700">
                   Access our comprehensive blog featuring the latest insights, analytics, and industry reports.
                 </p>
-                <Button variant="https://www.datashieldpartners.blog" className="text-indigo-600 p-0 mt-2">
+                <Button 
+                  variant="link" 
+                  className="text-indigo-600 p-0 mt-2"
+                  onClick={() => window.open('https://www.datashieldpartners.blog/', '_blank')}
+                >
                   Visit Blog →
                 </Button>
               </CardContent>
