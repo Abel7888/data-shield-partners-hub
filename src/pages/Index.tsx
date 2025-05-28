@@ -221,8 +221,11 @@ const Index = () => {
                 <p className="text-sm text-gray-700">
                   FinTech and PropTech solutions designed to transform financial services and real estate operations.
                 </p>
-                <Button variant="link" className="text-yellow-600 p-0 mt-2" disabled>
-                  Coming Soon
+                <Button  variant="link" 
+                  className="text-red-600 p-0 mt-2"
+                  onClick={() => window.open('https://datashielddigital.xyz/', '_blank')}
+                >
+                  Learn More →
                 </Button>
               </CardContent>
             </Card>
