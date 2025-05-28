@@ -215,7 +215,7 @@ const Index = () => {
 
             <Card className="bg-gradient-to-br from-yellow-50 to-yellow-100 border-yellow-200 text-center hover:shadow-lg transition-shadow">
               <CardHeader>
-                <CardTitle className="text-lg text-yellow-800">Finance & Real Estate</CardTitle>
+                <CardTitle className="text-lg text-yellow-800">Finance, Real Estate & Construction</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-gray-700">
